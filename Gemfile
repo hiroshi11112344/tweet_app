@@ -19,6 +19,10 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
+# OmniAuth and LINE for authentication
+gem "omniauth"
+gem "omniauth-line"
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -43,6 +47,9 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # 環境変数を読み込むためのGem
+  gem "dotenv-rails" # ここに追加
 end
 
 group :development do
