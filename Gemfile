@@ -49,7 +49,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   # 環境変数を読み込むためのGem
-  gem "dotenv-rails" # ここに追加
+  gem "dotenv-rails"
 end
 
 group :development do
